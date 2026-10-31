@@ -1,0 +1,295 @@
+{
+  "tool": "hand-forge-2",
+  "kind": "gear",
+  "recipe": {
+    "id": "reliquaryGloves-shell",
+    "name": "hf2-gear-reliquary-gloves-shell",
+    "base": "hf2-mh",
+    "icon": "drafts/batch-01/board/img/gear-reliquaryGloves.png",
+    "description": "White silk glove following the hand up to the last finger joint, embroidered with glowing gold thread runes, gold trim at the cuff, and a small gold-framed glass reliquary on the back of the hand",
+    "style": {
+      "preset": "fighter",
+      "look": {
+        "gear": "#ece6da",
+        "gearLit": "#fffdf6",
+        "gearShadow": "#9a9180",
+        "gearOutline": 1.3
+      }
+    },
+    "forearm": {
+      "length": 45,
+      "taper": 1.05
+    },
+    "parts": [
+      {
+        "type": "skinShell",
+        "offset": 2.4,
+        "triangles": 2000,
+        "keepWeight": 0.35
+      },
+      {
+        "type": "cuff",
+        "z": 17,
+        "width": 28,
+        "thickness": 3,
+        "flare": 1.12,
+        "gap": 2.6,
+        "segments": 12,
+        "cap": true
+      },
+      {
+        "type": "blob",
+        "on": "arm",
+        "z": -48,
+        "angle": 0,
+        "lift": 3,
+        "size": [
+          17,
+          28,
+          12
+        ],
+        "n": 2.6,
+        "lon": 10,
+        "lat": 5,
+        "bone": "middle-finger-metacarpal"
+      },
+      {
+        "type": "blob",
+        "on": "arm",
+        "z": -48,
+        "angle": 0,
+        "lift": 2,
+        "size": [
+          22,
+          34,
+          4
+        ],
+        "n": 3,
+        "lon": 10,
+        "lat": 3,
+        "bone": "middle-finger-metacarpal"
+      }
+    ],
+    "paint": {
+      "skin": false,
+      "note": "Bright white silk; the embroidery is saturated gold. Strong value contrast for a dark game seen against a warm orange-brown stone floor: the gear must not be brown or orange-tan; keep it clearly darker or lighter and of a different hue, with a bright painted highlight along every outer edge and rim, and bold dark ink seams. Keep each finger and knuckle clearly separated."
+    },
+    "glow": {
+      "hue": [
+        35,
+        60
+      ],
+      "sat": 0.5,
+      "val": 0.72,
+      "strength": 0.9
+    }
+  },
+  "base": "hf2-mh",
+  "params": {
+    "name": "hf2-gear-reliquary-gloves-shell",
+    "notes": "Seasoned bare-knuckle fighter (art/reference/hand-sheet-a/-b): broad square palm, thick wrist, a flat ridge of big index/middle knuckles, thick tapered fingers with flat backs, fleshy pads and bony joints.",
+    "digits": {
+      "thumb": {
+        "on": true,
+        "thickness": 1,
+        "tip": 1
+      },
+      "index": {
+        "on": true,
+        "thickness": 1.05,
+        "tip": 1
+      },
+      "middle": {
+        "on": true,
+        "thickness": 1.08,
+        "tip": 1
+      },
+      "ring": {
+        "on": true,
+        "thickness": 0.97,
+        "tip": 1
+      },
+      "pinky": {
+        "on": true,
+        "thickness": 0.86,
+        "tip": 0.9
+      }
+    },
+    "bind": {
+      "spread": 7,
+      "thumbOut": 4
+    },
+    "extra": {
+      "count": 0,
+      "spacing": 1,
+      "length": 0.92,
+      "thickness": 0.9,
+      "splay": 6
+    },
+    "finger": {
+      "radius": 10.6,
+      "depth": 0.74,
+      "depthPalm": 0.9,
+      "squareness": 2.9,
+      "squarenessPalm": 2,
+      "segmentPad": 0.12,
+      "taper": [
+        1,
+        0.88,
+        0.8,
+        0.72
+      ],
+      "pinch": 0,
+      "jointBulge": 0.9,
+      "knuckleWiden": 0.07,
+      "crease": 0.12,
+      "tipLength": 5,
+      "pad": 0.8,
+      "flatTip": 0.12
+    },
+    "thumb": {
+      "radius": 12,
+      "base": 1.3,
+      "web": 1.15
+    },
+    "palm": {
+      "width": 1.17,
+      "thickness": 31,
+      "wristThickness": 29,
+      "squareness": 4.2,
+      "endSquareness": 3.2,
+      "knuckles": 3.4,
+      "knuckleScale": {
+        "index": 1.25,
+        "middle": 1.25,
+        "ring": 0.95,
+        "pinky": 0.8
+      },
+      "knuckleSquare": 3.6,
+      "knuckleBlend": 3.6,
+      "knuckleRidge": 0.35,
+      "heel": 1.2,
+      "cup": 0
+    },
+    "forearm": {
+      "length": 30,
+      "width": 30,
+      "depth": 0.76,
+      "taper": 1.16,
+      "squareness": 2.7
+    },
+    "blend": {
+      "joint": 2.2,
+      "root": 5.5,
+      "palm": 11,
+      "detail": 1.6
+    },
+    "nails": {
+      "on": true,
+      "width": 0.8,
+      "length": 0.68,
+      "thickness": 0.4,
+      "squareness": 3.2,
+      "curve": 0.55
+    },
+    "wraps": {
+      "wrist": {
+        "on": true,
+        "width": 17,
+        "turns": 4,
+        "overlap": 0.35,
+        "thickness": 1.8,
+        "onHand": 24,
+        "tilt": 12
+      },
+      "forearm": {
+        "on": true,
+        "length": 240,
+        "taper": 1.22,
+        "turns": 8,
+        "overlap": 0.3,
+        "thickness": 1.6,
+        "tilt": 20
+      }
+    },
+    "look": {
+      "skin": "#985838",
+      "skinLit": "#e0854a",
+      "skinShadow": "#6a3628",
+      "nail": "#d9b49a",
+      "nailLit": "#f2d2bb",
+      "nailShadow": "#8a5f4c",
+      "light": [
+        -0.6,
+        -0.15,
+        0.8
+      ],
+      "shadowStep": -0.05,
+      "keyStep": 0.5,
+      "rim": "#ff8a3a",
+      "rimStrength": 0.7,
+      "outline": "#0a0c12",
+      "outlineWidth": 0.0028,
+      "nailOutline": 0.4,
+      "wrap": "#d9cfc0",
+      "wrapShadow": "#8f8576",
+      "wrapSeam": 0.55,
+      "innerOutline": 0.5,
+      "gear": "#ece6da",
+      "gearLit": "#fffdf6",
+      "gearShadow": "#9a9180",
+      "gearOutline": 1.3
+    },
+    "shade": {
+      "palmBlend": 20,
+      "fingerBlend": 12,
+      "detail": 0.15
+    },
+    "texture": {
+      "prompt": "a seasoned bare-knuckle fighter monk: big calloused knuckles, thick fingers, short blunt nails"
+    },
+    "mesh": {
+      "voxel": 1,
+      "faces": 5000,
+      "smooth": 1
+    },
+    "preset": "fighter",
+    "armFade": false
+  },
+  "files": {
+    "right": {
+      "file": "tools/hand-forge-2/out/hf2-gear-reliquary-gloves-shell-right.glb",
+      "gearTriangles": 2351,
+      "gearParts": 4,
+      "skinTriangles": 2937
+    },
+    "left": {
+      "file": "tools/hand-forge-2/out/hf2-gear-reliquary-gloves-shell-left.glb",
+      "gearTriangles": 2351,
+      "gearParts": 4,
+      "skinTriangles": 2937
+    }
+  },
+  "texture": {
+    "paints": "tools/hand-forge-2/texture/paints/hf2-gear-reliquary-gloves-shell",
+    "views": [
+      "back",
+      "palm",
+      "thumb",
+      "pinky"
+    ],
+    "size": 1024,
+    "iou": {
+      "back": 0.577,
+      "palm": 0.557,
+      "thumb": 0.694,
+      "pinky": 0.692
+    },
+    "files": [
+      "tools/hand-forge-2/out/hf2-gear-reliquary-gloves-shell-gear-right.png",
+      "tools/hand-forge-2/out/hf2-gear-reliquary-gloves-shell-gear-glow-right.png",
+      "tools/hand-forge-2/out/hf2-gear-reliquary-gloves-shell-gear-left.png",
+      "tools/hand-forge-2/out/hf2-gear-reliquary-gloves-shell-gear-glow-left.png"
+    ]
+  }
+}

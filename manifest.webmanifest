@@ -1,0 +1,16 @@
+{
+  "name": "Empty Hand",
+  "short_name": "Empty Hand",
+  "description": "A bare-handed monk fights from crypt to Demon Keep. Parry, punch and unleash your ki with your own hands. No controllers.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#0a0c12",
+  "theme_color": "#0a0c12",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

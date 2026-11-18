@@ -1,0 +1,364 @@
+{
+  "tool": "hand-forge-2",
+  "source": {
+    "import": "tools/hand-forge-2/sculpt/mh/mh-muscular.obj",
+    "mirror": false
+  },
+  "params": {
+    "name": "hf2-mh",
+    "notes": "Import style for sculpt/mh/mh-muscular.obj (MakeHuman hm08, CC0): hand only, skin cut 3 cm behind the wrist under a short monk wrist wrap closed by a recessed dark cap; planar shading, texel ink.",
+    "digits": {
+      "thumb": {
+        "on": true,
+        "thickness": 1,
+        "tip": 1
+      },
+      "index": {
+        "on": true,
+        "thickness": 1.05,
+        "tip": 1
+      },
+      "middle": {
+        "on": true,
+        "thickness": 1.08,
+        "tip": 1
+      },
+      "ring": {
+        "on": true,
+        "thickness": 0.97,
+        "tip": 1
+      },
+      "pinky": {
+        "on": true,
+        "thickness": 0.86,
+        "tip": 0.9
+      }
+    },
+    "bind": {
+      "spread": 7,
+      "thumbOut": 4
+    },
+    "extra": {
+      "count": 0,
+      "spacing": 1,
+      "length": 0.92,
+      "thickness": 0.9,
+      "splay": 6
+    },
+    "finger": {
+      "radius": 10.6,
+      "depth": 0.74,
+      "depthPalm": 0.9,
+      "squareness": 2.9,
+      "squarenessPalm": 2,
+      "segmentPad": 0.12,
+      "taper": [
+        1,
+        0.88,
+        0.8,
+        0.72
+      ],
+      "pinch": 0,
+      "jointBulge": 0.9,
+      "knuckleWiden": 0.07,
+      "crease": 0.12,
+      "tipLength": 5,
+      "pad": 0.8,
+      "flatTip": 0.12
+    },
+    "thumb": {
+      "radius": 12,
+      "base": 1.3,
+      "web": 1.15
+    },
+    "palm": {
+      "width": 1.17,
+      "thickness": 31,
+      "wristThickness": 29,
+      "squareness": 4.2,
+      "endSquareness": 3.2,
+      "knuckles": 3.4,
+      "knuckleScale": {
+        "index": 1.25,
+        "middle": 1.25,
+        "ring": 0.95,
+        "pinky": 0.8
+      },
+      "knuckleSquare": 3.6,
+      "knuckleBlend": 3.6,
+      "knuckleRidge": 0.35,
+      "heel": 1.2,
+      "cup": 0
+    },
+    "forearm": {
+      "length": 30,
+      "width": 30,
+      "depth": 0.76,
+      "taper": 1.16,
+      "squareness": 2.7
+    },
+    "blend": {
+      "joint": 2.2,
+      "root": 5.5,
+      "palm": 11,
+      "detail": 1.6
+    },
+    "nails": {
+      "on": true,
+      "width": 0.8,
+      "length": 0.68,
+      "thickness": 0.4,
+      "squareness": 3.2,
+      "curve": 0.55
+    },
+    "wraps": {
+      "wrist": {
+        "on": true,
+        "width": 17,
+        "turns": 2,
+        "overlap": 0.35,
+        "thickness": 2.2,
+        "onHand": 0,
+        "tilt": 3,
+        "cap": true
+      },
+      "forearm": {
+        "on": false,
+        "length": 240,
+        "taper": 1.22,
+        "turns": 8,
+        "overlap": 0.3,
+        "thickness": 1.6,
+        "tilt": 20
+      }
+    },
+    "look": {
+      "skin": "#985838",
+      "skinLit": "#e0854a",
+      "skinShadow": "#6a3628",
+      "nail": "#d9b49a",
+      "nailLit": "#f2d2bb",
+      "nailShadow": "#8a5f4c",
+      "light": [
+        -0.6,
+        -0.15,
+        0.8
+      ],
+      "shadowStep": -0.05,
+      "keyStep": 0.5,
+      "rim": "#ff8a3a",
+      "rimStrength": 0.7,
+      "outline": "#0a0c12",
+      "outlineWidth": 0.0028,
+      "nailOutline": 0.4,
+      "wrap": "#d9cfc0",
+      "wrapShadow": "#8f8576",
+      "wrapSeam": 0.55,
+      "innerOutline": 0.5
+    },
+    "shade": {
+      "palmBlend": 20,
+      "fingerBlend": 12,
+      "detail": 0.15
+    },
+    "texture": {
+      "prompt": "a seasoned bare-handed monk fighter, drawn seriously: realistic adult male proportions, strong but not exaggerated knuckles, short clean nails, NOT cartoony"
+    },
+    "mesh": {
+      "voxel": 1,
+      "faces": 4800,
+      "smooth": 0,
+      "keepTopology": 1
+    },
+    "preset": "fighter",
+    "relief": {
+      "knuckles": {
+        "index": 3,
+        "middle": 3.5,
+        "ring": 2.5,
+        "pinky": 2
+      },
+      "ridge": 0.8,
+      "valley": 1
+    },
+    "forearmCut": {
+      "length": 30,
+      "ragged": 0
+    },
+    "straightenForearm": true,
+    "armFade": false
+  },
+  "fit": {
+    "scale": 1.085286163232744,
+    "cost": 0.003543741246718847,
+    "fingers": {
+      "thumb": {
+        "splay": -2.2,
+        "flex": -6.8,
+        "scale": 0.97,
+        "curl": -1,
+        "cost": 0.00866
+      },
+      "index": {
+        "splay": 13,
+        "flex": 4.9,
+        "scale": 0.96,
+        "curl": -11.8,
+        "cost": 0.0052
+      },
+      "middle": {
+        "splay": 2.2,
+        "flex": 5.8,
+        "scale": 0.99,
+        "curl": -16.7,
+        "cost": 0.00573
+      },
+      "ring": {
+        "splay": -0.4,
+        "flex": -0.4,
+        "scale": 0.99,
+        "curl": -3.2,
+        "cost": 0.0059
+      },
+      "pinky": {
+        "splay": -4,
+        "flex": -1.3,
+        "scale": 0.92,
+        "curl": -2.1,
+        "cost": 0.00548
+      }
+    },
+    "landmarks": {
+      "thumb": [
+        0.041345,
+        0.131664,
+        0.047232
+      ],
+      "index": [
+        -0.029955,
+        0.168701,
+        0.095072
+      ],
+      "middle": [
+        -0.059566,
+        0.147789,
+        0.128366
+      ],
+      "ring": [
+        -0.074839,
+        0.113115,
+        0.137676
+      ],
+      "pinky": [
+        -0.070035,
+        0.071695,
+        0.129439
+      ],
+      "joints": {
+        "thumb-metacarpal": [
+          -0.00221,
+          0.049471,
+          0.005984
+        ],
+        "thumb-phalanx-proximal": [
+          0.02154,
+          0.072678,
+          0.015025
+        ],
+        "thumb-phalanx-distal": [
+          0.035814,
+          0.108204,
+          0.028379
+        ],
+        "thumb-tip": [
+          0.041345,
+          0.131664,
+          0.047232
+        ]
+      }
+    }
+  },
+  "files": {
+    "right": {
+      "file": "tools/hand-forge-2/out/hf2-mh-right.glb",
+      "bytes": 717452,
+      "triangles": 8442,
+      "wrapTriangles": 1292,
+      "joints": [
+        "wrist",
+        "thumb-metacarpal",
+        "thumb-phalanx-proximal",
+        "thumb-phalanx-distal",
+        "thumb-tip",
+        "index-finger-metacarpal",
+        "index-finger-phalanx-proximal",
+        "index-finger-phalanx-intermediate",
+        "index-finger-phalanx-distal",
+        "index-finger-tip",
+        "middle-finger-metacarpal",
+        "middle-finger-phalanx-proximal",
+        "middle-finger-phalanx-intermediate",
+        "middle-finger-phalanx-distal",
+        "middle-finger-tip",
+        "ring-finger-metacarpal",
+        "ring-finger-phalanx-proximal",
+        "ring-finger-phalanx-intermediate",
+        "ring-finger-phalanx-distal",
+        "ring-finger-tip",
+        "pinky-finger-metacarpal",
+        "pinky-finger-phalanx-proximal",
+        "pinky-finger-phalanx-intermediate",
+        "pinky-finger-phalanx-distal",
+        "pinky-finger-tip"
+      ]
+    },
+    "left": {
+      "file": "tools/hand-forge-2/out/hf2-mh-left.glb",
+      "bytes": 718884,
+      "triangles": 8442,
+      "wrapTriangles": 1292,
+      "joints": [
+        "pinky-finger-tip",
+        "pinky-finger-phalanx-distal",
+        "pinky-finger-phalanx-intermediate",
+        "pinky-finger-phalanx-proximal",
+        "pinky-finger-metacarpal",
+        "ring-finger-tip",
+        "ring-finger-phalanx-distal",
+        "ring-finger-phalanx-intermediate",
+        "ring-finger-phalanx-proximal",
+        "ring-finger-metacarpal",
+        "middle-finger-tip",
+        "middle-finger-phalanx-distal",
+        "middle-finger-phalanx-intermediate",
+        "middle-finger-phalanx-proximal",
+        "middle-finger-metacarpal",
+        "index-finger-tip",
+        "index-finger-phalanx-distal",
+        "index-finger-phalanx-intermediate",
+        "index-finger-phalanx-proximal",
+        "index-finger-metacarpal",
+        "thumb-tip",
+        "thumb-phalanx-distal",
+        "thumb-phalanx-proximal",
+        "thumb-metacarpal",
+        "wrist"
+      ]
+    }
+  },
+  "texture": {
+    "paints": "tools/hand-forge-2/texture/paints/hf2-mh",
+    "views": [
+      "back",
+      "palm",
+      "thumb",
+      "pinky"
+    ],
+    "size": 1024,
+    "iou": {},
+    "files": [
+      "tools/hand-forge-2/out/hf2-mh-right.png",
+      "tools/hand-forge-2/out/hf2-mh-left.png"
+    ]
+  }
+}
